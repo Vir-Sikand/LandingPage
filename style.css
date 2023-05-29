@@ -1,32 +1,133 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     min-height: 100vh;
-    padding : 30px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .topbox {
     background-color: #1F2937;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding : 10px;
 }
+
+.middlebox img {
+    border-radius: 20px;
+}
+
 
 .header {
-    font-size: 24px;
-    font-family: #F9FAF8;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
-a {
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .links {
+    display: flex;
+    gap: 20px;
+}
+
+.header a {
     font-size: 18px;
-    font-family: #e5e7eb;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.middle .awesome {
+    font-size: 24px;
+}
+
+.middle img {
+    height: 150px;
+}
+
+.middlebox {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.middlebox .random {
+    width: 100%;
+    text-align: center;
+}
+
+.middlebox figure {
+    flex: 0 0 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    text-align: center;
+}
+
+.middlebox img {
+    width: 50%;
+    height: auto;
+}
+
+.bottombox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    margin : 30px;
 }
 
 .bluebox {
     background-color: #3882f6;
+    color: white;
+    padding: 35px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin : 50px;
+    border-radius: 40px;
+}
+
+.bluebox button {
+    align-self: flex-end;
 }
 
 .footer {
     background-color: #1F2937;
-    color : white;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
 }
 
 button {
     background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 15px;
 }

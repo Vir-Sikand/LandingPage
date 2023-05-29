@@ -1,0 +1,32 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    padding : 30px;
+}
+
+.topbox {
+    background-color: #1F2937;
+}
+
+.header {
+    font-size: 24px;
+    font-family: #F9FAF8;
+}
+
+a {
+    font-size: 18px;
+    font-family: #e5e7eb;
+}
+
+.bluebox {
+    background-color: #3882f6;
+}
+
+.footer {
+    background-color: #1F2937;
+    color : white;
+}
+
+button {
+    background-color: #3882f6;
+}
